@@ -153,19 +153,24 @@ html,body {
 } 
 
 @media only screen and (max-width: 800px) {
+  .Jumbotron h1 {
+    font-size: 50px;
+  }
   .mfmf .card {
     width: 20rem;
+    display: block !important;
+    justify-content: center !important;
+  }
+  #Cards h3 {
+    font-size: 17px !important;
   }
   .card h6{
     font-size: 14px !important;
   }
 }
 
-@media only screen and (max-width: 425px) {
-  .Jumbotron h1 {
-    font-size: 50px;
-  }
-  .Jumbotron p {
-
+@media only screen and (max-width: 426px) {
+  .mfmf .hehe {
+    margin-bottom: 5%;
   }
 }
