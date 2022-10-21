@@ -1,0 +1,171 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.collapse {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#about h3 {
+    font-weight: 700;
+}
+
+.mfmf .card-title{
+    font-weight: 700;
+}
+
+.mfmf .btn:hover {
+    background-color: rgb(200, 200, 200);
+    color: black;
+}
+
+.mfmf .btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.mfmf .btn:active {
+    background-color: rgb(250, 250, 250);
+}
+
+.mfmf .card {
+  width: 30rem;
+}
+
+.Jumbotron {
+    padding-top: 6rem;
+    background-color: rgb(100, 100, 100);
+}
+
+.Jumbotron h1 {
+    color: #ffffff;
+}
+
+.Jumbotron p {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.fa-circle-chevron-down {
+    color: rgb(255, 255, 255, 0.8);
+}
+
+.fa-circle-chevron-down:hover {
+    color: rgb(70, 70, 70);
+}
+
+.fa-circle-chevron-down:active {
+    color: rgb(20, 20, 20);
+}
+
+#Cards {
+    background-color: #ffffff;
+}
+
+#Cards h1 {
+    font-weight: 300;
+}
+
+footer {
+    background-color: rgb(100, 100, 100);;
+}
+
+footer href:visited {
+    background-color: rgb(100, 100, 100);
+    border: none;
+}
+
+section {
+    padding-top: 6rem;
+}
+
+html,body {
+    scroll-behavior: smooth;
+}
+
+.Jumbotron h1 {
+    background-image: linear-gradient(to right top, rgb(255, 255, 255), rgb(250, 250, 250), rgb(225, 225, 225), rgb(210, 210, 210),rgb(190, 190, 190));
+    background-size: 50% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto Condensed', sans-serif;
+    animation: gradientAnim 6.5s ease  alternate infinite;
+    font-size: 120px;
+}
+
+@keyframes gradientAnim {
+    to {
+      background-position: 100% top;
+    }
+}
+
+:root {
+    --number-of-characters: 18;
+  }
+  .Jumbotron h1 {
+    position: relative;
+    display: inline-block;
+  }
+  .Jumbotron h1::before, .Jumbotron h1::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .Jumbotron h1::before {
+    background: rgb(100, 100, 100);
+    opacity: 1;
+    -webkit-animation: typewriter 1.5s steps(var(--number-of-characters)) 0.5s forwards;
+            animation: typewriter 1.5s steps(var(--number-of-characters)) 0.5s forwards;
+  }
+  .Jumbotron h1::after {
+    width: 1px;
+    background: black;
+    -webkit-animation: typewriter 1.5s steps(var(--number-of-characters)) 0.5s forwards,
+      blink 0.5s steps(var(--number-of-characters)) infinite;
+            animation: typewriter 1.5s steps(var(--number-of-characters)) 0.5s forwards,
+      blink 0.5s steps(var(--number-of-characters)) infinite;
+  }
+  @-webkit-keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  @keyframes typewriter {
+    to {
+      left: 100%;
+    }
+  }
+  @-webkit-keyframes blink {
+    0%  {background: black;}
+    49%  {background: black;}
+    50%  {background: transparent;}
+    100%  {background: transparent;}
+  }
+  @keyframes blink {
+    0%  {background: black;}
+    49%  {background: black;}
+    50%  {background: transparent;}
+    100%  {background: transparent;}
+} 
+
+@media only screen and (max-width: 800px) {
+  .mfmf .card {
+    width: 20rem;
+  }
+  .card h6{
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .Jumbotron h1 {
+    font-size: 50px;
+  }
+  .Jumbotron p {
+
+  }
+}
