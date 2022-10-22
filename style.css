@@ -140,14 +140,14 @@ html,body {
     }
   }
   @-webkit-keyframes blink {
-    0%  {background: black;}
-    49%  {background: black;}
+    0%  {background: white;}
+    49%  {background: white;}
     50%  {background: transparent;}
     100%  {background: transparent;}
   }
   @keyframes blink {
-    0%  {background: black;}
-    49%  {background: black;}
+    0%  {background: white;}
+    49%  {background: white;}
     50%  {background: transparent;}
     100%  {background: transparent;}
 } 
