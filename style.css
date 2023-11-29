@@ -116,7 +116,7 @@ html,body {
     left: 0;
   }
   .Jumbotron h1::before {
-    background: rgb(100, 100, 100);
+    background: #222222;
     opacity: 1;
     -webkit-animation: typewriter 1.5s steps(var(--number-of-characters)) 0.5s forwards;
             animation: typewriter 1.5s steps(var(--number-of-characters)) 0.5s forwards;
