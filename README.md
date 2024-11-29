@@ -1,3 +1,3 @@
 # PersonalPortfolio
 
-Feel free to get to explore.
+Feel free to explore.
